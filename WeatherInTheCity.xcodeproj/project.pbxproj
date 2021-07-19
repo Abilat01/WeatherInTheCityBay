@@ -14,6 +14,8 @@
 		3BC1CCF126A2EC4C00EB594D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC1CCF026A2EC4C00EB594D /* Assets.xcassets */; };
 		3BC1CCF426A2EC4C00EB594D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC1CCF226A2EC4C00EB594D /* LaunchScreen.storyboard */; };
 		3BC1CCFD26A35A7A00EB594D /* ViewControllerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1CCFC26A35A7A00EB594D /* ViewControllerAlert.swift */; };
+		3BE3DB8C26A5C33E005283F7 /* NetworkMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3DB8B26A5C33E005283F7 /* NetworkMenager.swift */; };
+		3BE3DB8E26A5C5DE005283F7 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3DB8D26A5C5DE005283F7 /* Constans.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3BC1CCF326A2EC4C00EB594D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC1CCF526A2EC4C00EB594D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC1CCFC26A35A7A00EB594D /* ViewControllerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAlert.swift; sourceTree = "<group>"; };
+		3BE3DB8B26A5C33E005283F7 /* NetworkMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMenager.swift; sourceTree = "<group>"; };
+		3BE3DB8D26A5C5DE005283F7 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		3BC1CD0026A35B3900EB594D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3BE3DB8B26A5C33E005283F7 /* NetworkMenager.swift */,
+				3BE3DB8D26A5C5DE005283F7 /* Constans.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,7 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE3DB8C26A5C33E005283F7 /* NetworkMenager.swift in Sources */,
 				3BC1CCEC26A2EC4A00EB594D /* ViewController.swift in Sources */,
+				3BE3DB8E26A5C5DE005283F7 /* Constans.swift in Sources */,
 				3BC1CCE826A2EC4A00EB594D /* AppDelegate.swift in Sources */,
 				3BC1CCFD26A35A7A00EB594D /* ViewControllerAlert.swift in Sources */,
 				3BC1CCEA26A2EC4A00EB594D /* SceneDelegate.swift in Sources */,
