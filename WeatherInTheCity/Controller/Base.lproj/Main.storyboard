@@ -27,20 +27,20 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ka7-AK-yZ5">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="84"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="70"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" name="Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8S6-lu-K2C">
                                         <rect key="frame" x="100" y="0.0" width="75.5" height="84"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" name="Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.drizzle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kbx-Rv-8AS">
                                 <rect key="frame" x="117" y="94" width="180" height="181.5"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" name="Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="bWe-Px-62X"/>
                                 </constraints>
@@ -70,15 +70,40 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="8cb-N9-v1Y">
+                                <rect key="frame" x="217" y="359" width="131" height="20.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barometer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ohp-Gx-Msd">
+                                        <rect key="frame" x="0.0" y="0.5" width="20" height="19.5"/>
+                                        <color key="tintColor" name="Color"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="752" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJO-AE-eDQ">
+                                        <rect key="frame" x="23" y="0.0" width="29" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="мм рт. ст." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0As-8f-hdw">
+                                        <rect key="frame" x="55" y="0.0" width="76" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GXB-rt-QBR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Kbx-Rv-8AS" firstAttribute="leading" secondItem="GXB-rt-QBR" secondAttribute="leading" constant="117" id="HXm-MK-gv0"/>
+                            <constraint firstItem="8cb-N9-v1Y" firstAttribute="leading" secondItem="8S6-lu-K2C" secondAttribute="trailing" constant="-78.5" id="KZN-g4-N5B"/>
                             <constraint firstItem="Zrn-5A-IlV" firstAttribute="top" secondItem="Kbx-Rv-8AS" secondAttribute="bottom" constant="2" id="Nfk-Ol-SNd"/>
                             <constraint firstItem="GXB-rt-QBR" firstAttribute="trailing" secondItem="GBh-ga-POS" secondAttribute="trailing" constant="20" id="Ntk-Po-SIA"/>
+                            <constraint firstItem="8cb-N9-v1Y" firstAttribute="leading" secondItem="GXB-rt-QBR" secondAttribute="leading" constant="217" id="S90-Sn-XU4"/>
                             <constraint firstItem="Zrn-5A-IlV" firstAttribute="leading" secondItem="GXB-rt-QBR" secondAttribute="leading" constant="120" id="TEl-U5-f89"/>
                             <constraint firstItem="GXB-rt-QBR" firstAttribute="trailing" secondItem="Kbx-Rv-8AS" secondAttribute="trailing" constant="117" id="TYI-P2-qkK"/>
+                            <constraint firstItem="8cb-N9-v1Y" firstAttribute="top" secondItem="Kbx-Rv-8AS" secondAttribute="bottom" constant="85" id="VF9-RX-1vZ"/>
+                            <constraint firstItem="GXB-rt-QBR" firstAttribute="trailing" secondItem="8cb-N9-v1Y" secondAttribute="trailing" constant="66" id="dPP-qL-H6u"/>
                             <constraint firstItem="GXB-rt-QBR" firstAttribute="trailing" secondItem="Zrn-5A-IlV" secondAttribute="trailing" constant="118.5" id="f3B-OP-jBn"/>
                             <constraint firstItem="Kbx-Rv-8AS" firstAttribute="top" secondItem="GXB-rt-QBR" secondAttribute="top" constant="50" id="nkl-c6-7zj"/>
                             <constraint firstItem="GBh-ga-POS" firstAttribute="bottom" secondItem="GXB-rt-QBR" secondAttribute="bottom" id="qNE-nj-hUF"/>
@@ -86,6 +111,7 @@
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="cfR-T2-UOZ" id="bvv-H1-gq0"/>
+                        <outlet property="pressureLabel" destination="CJO-AE-eDQ" id="x64-30-EWk"/>
                         <outlet property="temperatureLabel" destination="ka7-AK-yZ5" id="vPM-YR-nTw"/>
                         <outlet property="weatherIconImage" destination="Kbx-Rv-8AS" id="tlj-pZ-x5L"/>
                     </connections>
@@ -97,8 +123,12 @@
     </scenes>
     <resources>
         <image name="Backgraund" width="512" height="512"/>
+        <image name="barometer" catalog="system" width="128" height="121"/>
         <image name="cloud.drizzle.fill" catalog="system" width="128" height="125"/>
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="Color">
+            <color red="0.39215686274509803" green="0.70980392156862748" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="infoColor">
             <color red="0.95099997520446777" green="1" blue="0.66900002956390381" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
