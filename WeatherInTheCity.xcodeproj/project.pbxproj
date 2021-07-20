@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BBF0BC226A6EE1200E3294D /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF0BC126A6EE1200E3294D /* CurrentWeather.swift */; };
 		3BC1CCE826A2EC4A00EB594D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1CCE726A2EC4A00EB594D /* AppDelegate.swift */; };
 		3BC1CCEA26A2EC4A00EB594D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1CCE926A2EC4A00EB594D /* SceneDelegate.swift */; };
 		3BC1CCEC26A2EC4A00EB594D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1CCEB26A2EC4A00EB594D /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BBF0BC126A6EE1200E3294D /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		3BC1CCE426A2EC4A00EB594D /* WeatherInTheCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherInTheCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC1CCE726A2EC4A00EB594D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC1CCE926A2EC4A00EB594D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				3BE3DB8B26A5C33E005283F7 /* NetworkMenager.swift */,
+				3BBF0BC126A6EE1200E3294D /* CurrentWeather.swift */,
 				3BCB080426A6D46B00812CD9 /* CurrentWeatheData.swift */,
 				3BE3DB8D26A5C5DE005283F7 /* Constans.swift */,
 			);
@@ -183,6 +186,7 @@
 			files = (
 				3BE3DB8C26A5C33E005283F7 /* NetworkMenager.swift in Sources */,
 				3BCB080526A6D46B00812CD9 /* CurrentWeatheData.swift in Sources */,
+				3BBF0BC226A6EE1200E3294D /* CurrentWeather.swift in Sources */,
 				3BC1CCEC26A2EC4A00EB594D /* ViewController.swift in Sources */,
 				3BE3DB8E26A5C5DE005283F7 /* Constans.swift in Sources */,
 				3BC1CCE826A2EC4A00EB594D /* AppDelegate.swift in Sources */,

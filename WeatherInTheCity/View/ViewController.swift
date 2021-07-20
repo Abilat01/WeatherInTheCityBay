@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func searchPressed(_ sender: UIButton) {
         self.searchAlertController(withTitle: "Enter city name", message: nil, style: .alert) { city in
-            self.networkManager.fetchCurrentWeather(forCity: city   )
+            self.networkManager.fetchCurrentWeather(forCity: city)
         }
     }
     

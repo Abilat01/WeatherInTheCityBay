@@ -15,7 +15,7 @@ struct CurrentWeatheData: Codable {
 
 struct Main: Codable {
     let temp: Double
-    let pressure: Int
+    let pressure: Double
     
     enum CodingKeys: String, CodingKey {
         case temp
