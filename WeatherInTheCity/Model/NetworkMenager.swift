@@ -7,13 +7,13 @@
 
 import Foundation
 
-protocol NetworkWeatherManagerDelegate {
+protocol NetworkWeatherManagerDelegate: AnyObject {
     func updateInterface(_: NetworkMenager, with currentWeather: CurrentWeather)
 }
 
-struct NetworkMenager {
+class NetworkMenager {
     
-    var delegate: NetworkWeatherManagerDelegate?
+    weak var delegate: NetworkWeatherManagerDelegate?
     
     func fetchCurrentWeather(forCity city: String) {
         let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&apikey=\(apiKey)"
